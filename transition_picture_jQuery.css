@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.pictures{
+    width:400%;
+}
+.pictures>ul{
+    width:100%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+img{
+     width: 200px;
+ }

@@ -2,16 +2,55 @@
     padding: 0;
     margin: 0;
 }
-.pictures{
-    width:400%;
+#contain{
+    width: 800px;
+    height: 1000px;
+    margin-left: 150px;
+    padding-top: 100px;
+    overflow: hidden;
 }
-.pictures>ul{
-    width:100%;
+.pictures{
+    width:3200px;
+}
+.box{
+    width:800px;
+}
+.pictures>ul .box1{
+
 }
 ul li{
     list-style: none;
     display: inline-block;
+    float: left;
 }
 img{
-     width: 200px;
+    width: 200px;
+    float: left;
  }
+/*按钮样式*/
+#goToPre{
+    position: absolute;
+    color:white;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top:30px;
+}
+#goToNext{
+    position: absolute;
+    color:white;
+    font-size: 40px;
+    margin-left: 750px;
+    margin-top:30px;
+}
+#auto{
+    position: absolute;
+    margin-top:-30px;
+}
+#content{
+    position: absolute;
+    color:gray;
+    font-size: 18px;
+    letter-spacing:5px;
+    margin-left: 650px;
+    margin-top:100px;
+}
